@@ -47,5 +47,6 @@ public class MainActivity extends AppCompatActivity {
             mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
+
     }
 }
